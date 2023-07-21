@@ -1,0 +1,217 @@
+body {
+  background-color: rgb(16, 17, 20);
+  font-family: Lucida, sans-serif;
+}
+
+.baner {
+  height: 600px;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1603126004372-e63e3b53934b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+  background-size: cover;
+  background-position: top center top;
+  display: flex;
+  justify-content: center;
+}
+.baner-form {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.baner-form > p2 {
+  font-size: medium;
+  color: rgba(28, 30, 31, 0.438);
+  text-align: right;
+}
+
+.baner-form > h1 {
+  margin: 15px;
+}
+
+.baner-form > button {
+  background-color: rgb(18, 70, 180);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.bu:hover {
+  background-color: rgb(18, 70, 180);
+  cursor: pointer;
+  border: none;
+}
+.p {
+  font-size: small;
+  background-color: rgba(44, 41, 41, 0.39);
+  height: 45px;
+  width: 110px;
+  border-radius: 25px;
+  position: relative;
+  left: 360px;
+  background-size: cover;
+}
+.blog {
+  height: 450px;
+  width: 800px;
+  color: white;
+  background-color: rgb(19, 22, 27);
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+}
+.h {
+  color: rgba(132, 143, 160, 0.671);
+}
+
+.blog > h2 {
+  font-size: 180%;
+}
+
+.blog > h1 {
+  font-size: 180%;
+}
+.blog > p2 {
+  font-size: medium;
+  margin: 1px;
+  color: white;
+}
+
+.blog > p {
+  font-size: medium;
+  margin: 10px;
+  color: rgba(132, 143, 160, 0.671);
+}
+
+.m {
+  color: rgba(132, 143, 160, 0.671);
+}
+
+.blog2 {
+  text-align: center;
+  color: white;
+}
+
+.mu {
+  color: rgba(132, 143, 160, 0.671);
+  font-size: small;
+}
+.blockconer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+.blog2 > h1 {
+  font-size: 200%;
+}
+
+.blog2 > h2 {
+  font-size: 95%;
+  color: rgba(132, 143, 160, 0.671);
+}
+
+.block-gard {
+  margin: auto;
+  width: 150px;
+  height: 300px;
+}
+.block-gard > img {
+  width: 150%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.block-gard > p {
+  background-color: rgb(19, 22, 27);
+  position: relative;
+
+  text-align: center;
+  position: static;
+  color: rgba(132, 143, 160, 0.671);
+  width: 150%;
+  height: 120px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.block-gard > p2 {
+  position: relative;
+
+  left: 35px;
+  text-align: center;
+  color: white;
+}
+
+.block-gards {
+  margin: auto;
+  width: 150px;
+  height: 300px;
+}
+.block-gards > img {
+  width: 150%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.block-gards > p {
+  background-color: rgb(19, 22, 27);
+  position: relative;
+
+  text-align: center;
+  position: static;
+  color: rgba(132, 143, 160, 0.671);
+  width: 150%;
+  height: 120px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.block-gards > p2 {
+  position: relative;
+
+  left: 35px;
+  text-align: center;
+  color: white;
+}
+.blockconers {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.ca {
+  background-color: rgb(18, 70, 180);
+  border-radius: 80px;
+  width: 100px;
+  height: 90px;
+  font-size: 250%;
+  position: absolute;
+  top: 630px;
+  left: 525px;
+}
+
+.block-gardss > p2 {
+  position: relative;
+  left: 35px;
+  text-align: center;
+  color: white;
+}
+.blockconerss {
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  top: 2100px;
+  left: 245px;
+  text-align: center;
+}
+
+.block-gardss > p {
+  background-color: rgb(19, 22, 27);
+  position: relative;
+  text-align: center;
+  position: static;
+  color: rgba(132, 143, 160, 0.671);
+  width: 150%;
+  height: 120px;
+  margin: 5px;
+  border-radius: 10px;
+}
